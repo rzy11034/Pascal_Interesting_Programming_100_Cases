@@ -44,9 +44,11 @@
           </CodeGeneration>
           <Linking>
             <Debugging>
-              <DebugInfoType Value="dsDwarf2"/>
+              <DebugInfoType Value="dsDwarf2Set"/>
               <UseHeaptrc Value="True"/>
               <TrashVariables Value="True"/>
+              <UseValgrind Value="True"/>
+              <StripSymbols Value="True"/>
             </Debugging>
           </Linking>
         </CompilerOptions>
@@ -116,6 +118,22 @@
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_04.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Source\Case01\PIP.Cases01_05.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Source\Case01\PIP.Cases01_06.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Source\Case01\PIP.Cases01_07.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Source\Case01\PIP.Cases01_08.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>

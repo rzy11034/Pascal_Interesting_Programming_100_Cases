@@ -1,4 +1,4 @@
-﻿unit PIP.Cases01_01; // 百鸡百钱
+﻿unit PIP.Cases01_01;
 
 interface
 
