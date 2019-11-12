@@ -1,21 +1,15 @@
-﻿unit PIP.Cases01_08;
-
-{$mode objfpc}{$H+}
+﻿unit PIP.Cases01_08_冒泡排序;
 
 interface
-
-uses
-  Classes,
-  SysUtils;
 
 procedure Main;
 
 implementation
 
 type
-  TIntArr = specialize TArray<integer>;
+  TIntArr = TArray<integer>;
 
-procedure BubbleSort(const arr: specialize TArray<integer>);
+procedure BubbleSort(arr: TIntArr);
 var
   isSwaped: boolean;
   i, j, tmp, n: integer;
@@ -27,7 +21,7 @@ begin
   while isSwaped do
   begin
     isSwaped := False;
-    j += 1;
+    Inc(j);
 
     for i := 0 to n - j do
     begin
@@ -45,7 +39,7 @@ end;
 
 procedure Main;
 var
-  arr: specialize TArray<integer>;
+  arr: TIntArr;
   i: integer;
 begin
   arr := [8, 7, 9, 5, 3, 10, 11, 20, 6, 11, 15];

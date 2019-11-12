@@ -1,12 +1,9 @@
-﻿unit PIP.Cases01_04; // 抓交通肇事犯
-
-{$mode objfpc}{$H+}
+﻿unit PIP.Cases01_04_抓交通肇事犯;
 
 interface
 
 uses
-  Classes,
-  SysUtils;
+  System.SysUtils;
 
 procedure Main;
 

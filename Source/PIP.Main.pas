@@ -10,11 +10,9 @@ procedure Run;
 implementation
 
 uses
-  PIP.Cases01_07;
+  PIP.Cases01_10_数值转换;
 
 procedure Run;
-var
-  a: array[0..999] of Integer;
 begin
   Main;
 end;

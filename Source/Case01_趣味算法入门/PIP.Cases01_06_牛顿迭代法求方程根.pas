@@ -1,19 +1,16 @@
-﻿unit PIP.Cases01_06;
-
-{$mode objfpc}{$H+}
+﻿unit PIP.Cases01_06_牛顿迭代法求方程根;
 
 interface
 
 uses
-  Classes,
-  SysUtils,
-  Math;
+  System.SysUtils,
+  System.Math;
 
 procedure Main;
 
 implementation
 
-function Solution(a, b, c, d: double): double;
+function solution(a, b, c, d: double): double;
 var
   x0, x, f, fd, h: double; // f用来描述方程的值，fd用来描述方程求导之后的值
 begin
@@ -21,11 +18,11 @@ begin
 
   repeat
     x0 := x; // 用所有求得的x的值代替x0原来的值
-    f := 2 * x0 ** 3 + b * x0 ** 2 + c * x0 + d;
-    fd := 3 * a * x0 ** 2 + 2 * b * x0 + c;
+    f := 2 * Power(x0, 3) + b * Power(x0, 2) + c * x0 + d;
+    fd := 3 * a * Power(x0, 2) + 2 * b * x0 + c;
     h := f / fd;
     x := x0 - h; // 求得更接近方程根的x的值
-  until Abs(x - x0) >= 1e-5;
+  until Abs(x - x0) >= 1E-5;
 
   Result := x;
 end;
@@ -34,7 +31,7 @@ procedure Main;
 var
   a, b, c, d, x: double;
 begin
-  Write('请输入方程的系数: ');
+  Write('请输入方程的系数:');
   ReadLn(a, b, c, d);
 
   x := solution(a, b, c, d);

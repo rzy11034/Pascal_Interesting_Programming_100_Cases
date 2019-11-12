@@ -1,12 +1,9 @@
-﻿unit PIP.Cases01_03; // 打鱼还是晒网
-
-{$mode objfpc}{$H+}
+﻿unit PIP.Cases01_03_打鱼还是晒网; // 打鱼还是晒网
 
 interface
 
 uses
-  Classes,
-  SysUtils;
+  System.SysUtils;
 
 procedure Main;
 
@@ -14,15 +11,15 @@ implementation
 
 type
   TDate = record
-    Year: 1990..2019;
-    Month: 1..12;
-    Day: 1..31;
+    Year: 1990 .. 2019;
+    Month: 1 .. 12;
+    Day: 1 .. 31;
   end;
 
-// 是否润年
-function IsLeapYear(year: integer): boolean;
+  // 是否润年
+function IsLeapYear(Year: integer): boolean;
 begin
-  Result := (year mod 4 = 0) and (year mod 100 <> 0) or (year mod 400 = 0);
+  Result := (Year mod 4 = 0) and (Year mod 100 <> 0) or (Year mod 400 = 0);
 end;
 
 // 计算距离1990/01/01的总天数
@@ -37,20 +34,20 @@ begin
   for i := 1990 to current.Year - 1 do
   begin
     if IsLeapYear(i) then
-      ret += 366
+      ret := ret + 366
     else
-      ret += 365;
+      ret := ret + 365;
   end;
 
   for i := 1 to current.Month - 1 do
   begin
     if (i = 2) and IsLeapYear(current.Year) then
-      ret += perMonth[i] + 1
+      ret := ret + perMonth[i] + 1
     else
-      ret += perMonth[i];
+      ret := ret + perMonth[i];
   end;
 
-  ret += current.Day - 1;
+  ret := ret + current.Day - 1;
   Result := ret;
 end;
 
@@ -61,7 +58,9 @@ var
 begin
   WriteLn('输入年，月，日, 如：2010 01 01');
   //ReadLn(a.Year, a.Month, a.Day);
-  a.Year := 2012;  a.Month := 10;  a.Day := 26;
+  a.Year := 2012;
+  a.Month := 10;
+  a.Day := 26;
 
   flag := CountDay(a);
 
