@@ -1,9 +1,12 @@
-﻿unit PIP.Cases01_01_百鸡百线问题;
+﻿unit PIP.Cases01_01;
+
+{$mode objfpc}{$H+}
 
 interface
 
 uses
-  System.SysUtils;
+  Classes,
+  SysUtils;
 
 procedure Main;
 

@@ -1,0 +1,34 @@
+program PIP;
+
+{$mode objfpc}{$H+}
+
+uses
+ {$IFDEF UNIX}
+  cthreads,
+ {$ENDIF}
+  Classes,
+  SysUtils,
+  PIP.Utils,
+  PIP.Main,
+  PIP.Cases01_01,
+  PIP.Cases01_02,
+  PIP.Cases01_03,
+  PIP.Cases01_04,
+  PIP.Cases01_05,
+  PIP.Cases01_06,
+  PIP.Cases01_07,
+  PIP.Cases01_08,
+  PIP.Cases01_09,
+  PIP.Cases01_10;
+
+begin
+  try
+    Run;
+    TLAUtils.DrawLine;
+    Writeln(END_OF_PROGRAM_EN);
+    Readln;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

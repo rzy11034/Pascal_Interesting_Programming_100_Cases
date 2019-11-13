@@ -1,11 +1,12 @@
-﻿unit PIP.Cases01_03_打鱼还是晒网; // 打鱼还是晒网
+﻿unit PIP.Cases01_03;
+
+{$mode objfpc}{$H+}
 
 interface
 
 uses
-  System.SysUtils;
-
-procedure Main;
+  Classes,
+  SysUtils;
 
 implementation
 
@@ -16,7 +17,7 @@ type
     Day: 1 .. 31;
   end;
 
-  // 是否润年
+// 是否润年
 function IsLeapYear(Year: integer): boolean;
 begin
   Result := (Year mod 4 = 0) and (Year mod 100 <> 0) or (Year mod 400 = 0);

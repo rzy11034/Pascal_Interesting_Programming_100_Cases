@@ -1,9 +1,12 @@
-﻿unit PIP.Cases01_02_借书方案知多少; // 借书方案知多少
+﻿unit PIP.Cases01_02;
+
+{$mode objfpc}{$H+}
 
 interface
 
 uses
-  System.SysUtils;
+  Classes,
+  SysUtils;
 
 procedure Main;
 
@@ -25,7 +28,7 @@ begin
         begin
           if (c <> a) and (c <> b) then
           begin
-            inc(i);
+            Inc(i);
             WriteLn(Format('A:%d, B:%d, C:%d', [a, b, c]));
           end;
         end;

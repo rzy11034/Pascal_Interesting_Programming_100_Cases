@@ -10,7 +10,7 @@ procedure Run;
 implementation
 
 uses
-  PIP.Cases01_10_数值转换;
+  PIP.Cases01_10;
 
 procedure Run;
 begin

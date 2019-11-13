@@ -1,13 +1,19 @@
-﻿unit PIP.Cases01_08_冒泡排序;
+﻿unit PIP.Cases01_08;
+
+{$mode objfpc}{$H+}
 
 interface
+
+uses
+  Classes,
+  SysUtils;
 
 procedure Main;
 
 implementation
 
 type
-  TIntArr = TArray<integer>;
+  TIntArr = array of integer;
 
 procedure BubbleSort(arr: TIntArr);
 var

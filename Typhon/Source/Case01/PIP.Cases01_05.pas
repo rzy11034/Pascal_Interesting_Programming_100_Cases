@@ -1,9 +1,12 @@
-﻿unit PIP.Cases01_05_兔子产子问题;
+﻿unit PIP.Cases01_05;
+
+{$mode objfpc}{$H+}
 
 interface
 
 uses
-  System.SysUtils;
+  Classes,
+  SysUtils;
 
 procedure Main;
 
