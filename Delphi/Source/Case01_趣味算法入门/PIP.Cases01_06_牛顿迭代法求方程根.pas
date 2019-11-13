@@ -1,4 +1,4 @@
-﻿unit PIP.Cases01_06;
+﻿unit PIP.Cases01_06_牛顿迭代法求方程根;
 
 interface
 

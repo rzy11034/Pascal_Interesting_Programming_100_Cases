@@ -8,16 +8,16 @@ uses
   System.SysUtils,
   PIP.Main in 'Source\PIP.Main.pas',
   PIP.Utils in 'Source\PIP.Utils.pas',
-  PIP.Cases01_01 in 'Source\Case01\PIP.Cases01_01.pas',
-  PIP.Cases01_02 in 'Source\Case01\PIP.Cases01_02.pas',
-  PIP.Cases01_03 in 'Source\Case01\PIP.Cases01_03.pas',
-  PIP.Cases01_04 in 'Source\Case01\PIP.Cases01_04.pas',
-  PIP.Cases01_05 in 'Source\Case01\PIP.Cases01_05.pas',
-  PIP.Cases01_06 in 'Source\Case01\PIP.Cases01_06.pas',
-  PIP.Cases01_07 in 'Source\Case01\PIP.Cases01_07.pas',
-  PIP.Cases01_08 in 'Source\Case01\PIP.Cases01_08.pas',
-  PIP.Cases01_09 in 'Source\Case01\PIP.Cases01_09.pas',
-  PIP.Cases01_10 in 'Source\Case01\PIP.Cases01_10.pas';
+  PIP.Cases01_01_百鸡百线问题 in 'Source\Case01_趣味算法入门\PIP.Cases01_01_百鸡百线问题.pas',
+  PIP.Cases01_02_借书方案知多少 in 'Source\Case01_趣味算法入门\PIP.Cases01_02_借书方案知多少.pas',
+  PIP.Cases01_03_打鱼还是晒网 in 'Source\Case01_趣味算法入门\PIP.Cases01_03_打鱼还是晒网.pas',
+  PIP.Cases01_04_抓交通肇事犯 in 'Source\Case01_趣味算法入门\PIP.Cases01_04_抓交通肇事犯.pas',
+  PIP.Cases01_05_兔子产子问题 in 'Source\Case01_趣味算法入门\PIP.Cases01_05_兔子产子问题.pas',
+  PIP.Cases01_06_牛顿迭代法求方程根 in 'Source\Case01_趣味算法入门\PIP.Cases01_06_牛顿迭代法求方程根.pas',
+  PIP.Cases01_07_最佳存款方案 in 'Source\Case01_趣味算法入门\PIP.Cases01_07_最佳存款方案.pas',
+  PIP.Cases01_08_冒泡排序 in 'Source\Case01_趣味算法入门\PIP.Cases01_08_冒泡排序.pas',
+  PIP.Cases01_09_折半查找 in 'Source\Case01_趣味算法入门\PIP.Cases01_09_折半查找.pas',
+  PIP.Cases01_10_数值转换 in 'Source\Case01_趣味算法入门\PIP.Cases01_10_数值转换.pas';
 
 begin
   try

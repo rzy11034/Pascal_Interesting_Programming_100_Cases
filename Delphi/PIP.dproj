@@ -157,17 +157,16 @@
         </DelphiCompile>
         <DCCReference Include="Source\PIP.Main.pas"/>
         <DCCReference Include="Source\PIP.Utils.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_01.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_02.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_03.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_04.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_05.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_06.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_07.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_08.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_09.pas"/>
-        <DCCReference Include="Source\Case01\PIP.Cases01_10.pas"/>
-        <None Include="..\Resources\目录.txt"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_01_百鸡百线问题.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_02_借书方案知多少.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_03_打鱼还是晒网.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_04_抓交通肇事犯.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_05_兔子产子问题.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_06_牛顿迭代法求方程根.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_07_最佳存款方案.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_08_冒泡排序.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_09_折半查找.pas"/>
+        <DCCReference Include="Source\Case01_趣味算法入门\PIP.Cases01_10_数值转换.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -202,12 +201,6 @@
                 <DeployFile LocalName="Win32\Debug\PIP.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>PIP.exe</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="..\Resources\目录.txt" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
