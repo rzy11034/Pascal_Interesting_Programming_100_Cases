@@ -46,20 +46,6 @@ begin
   Result := ret;
 end;
 
-function Power(x, n: integer): integer;
-var
-  i, tmp: integer;
-begin
-  tmp := x;
-
-  for i := 1 to n - 1 do
-  begin
-    tmp := tmp * x;
-  end;
-
-  Result := tmp;
-end;
-
 function AnyToDec(numStr: string; inType: integer): string;
 var
   tmp, i: integer;
@@ -70,9 +56,7 @@ begin
   stack := TStack.Create;
   try
     for i := Low(numStr) to High(numStr) do
-    begin
       stack.Push(numStr[i]);
-    end;
 
     i := 0;
     while stack.Count > 0 do
@@ -126,7 +110,7 @@ end;
 
 procedure Main;
 begin
-  writeLn(NumTrans('1000000', 10, 16));
+  writeLn(NumTrans('255', 10, 16));
 end;
 
 end.

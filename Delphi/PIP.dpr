@@ -17,7 +17,9 @@ uses
   PIP.Cases01_07_最佳存款方案 in 'Source\Case01_趣味算法入门\PIP.Cases01_07_最佳存款方案.pas',
   PIP.Cases01_08_冒泡排序 in 'Source\Case01_趣味算法入门\PIP.Cases01_08_冒泡排序.pas',
   PIP.Cases01_09_折半查找 in 'Source\Case01_趣味算法入门\PIP.Cases01_09_折半查找.pas',
-  PIP.Cases01_10_数值转换 in 'Source\Case01_趣味算法入门\PIP.Cases01_10_数值转换.pas';
+  PIP.Cases01_10_数值转换 in 'Source\Case01_趣味算法入门\PIP.Cases01_10_数值转换.pas',
+  PIP.Cases02_01_个人所得税问题 in 'Source\Case02_趣味数学问题\PIP.Cases02_01_个人所得税问题.pas',
+  PIP.Cases02_02_存钱问题 in 'Source\Case02_趣味数学问题\PIP.Cases02_02_存钱问题.pas';
 
 begin
   try

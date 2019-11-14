@@ -1,7 +1,7 @@
 unit PIP.Cases01_10;
 
 {$mode objfpc}{$H+}
-{$ZEROBASEDSTRINGS ON}
+//{$ZEROBASEDSTRINGS ON}
 
 interface
 
@@ -58,9 +58,7 @@ begin
   stack := TStack.Create;
   try
     for i := Low(numStr) to High(numStr) do
-    begin
       stack.Push(numStr[i]);
-    end;
 
     i := 0;
     while not stack.IsEmpty do
@@ -70,7 +68,6 @@ begin
 
       i += 1;
     end;
-
 
     Result := tmp;
   finally
@@ -115,7 +112,7 @@ end;
 
 procedure Main;
 begin
-  writeLn(NumTrans('100000', 10, 16));
+  writeLn(NumTrans('255', 10, 16));
 end;
 
 end.
