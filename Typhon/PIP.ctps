@@ -9,26 +9,27 @@
         <Filename Value="PIP.ppr"/>
         <FRMtype Value="0"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="8"/>
-        <CursorPos X="18" Y="13"/>
-        <UsageCount Value="50"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos X="34" Y="14"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Source\PIP.Main.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="20" Y="14"/>
-        <UsageCount Value="50"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="8"/>
+        <CursorPos X="33" Y="18"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Source\PIP.Utils.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="13"/>
-        <CursorPos Y="36"/>
-        <UsageCount Value="50"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="27" Y="26"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -37,7 +38,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3"/>
         <CursorPos X="12" Y="9"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_02.pas"/>
@@ -45,14 +46,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="17"/>
         <CursorPos X="20" Y="31"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_03.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="12" Y="20"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_04.pas"/>
@@ -60,14 +61,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <CursorPos X="5" Y="37"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_05.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="12" Y="9"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_06.pas"/>
@@ -75,7 +76,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3"/>
         <CursorPos X="8" Y="10"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_07.pas"/>
@@ -83,7 +84,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="6"/>
         <CursorPos X="12" Y="9"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_08.pas"/>
@@ -91,7 +92,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="40"/>
         <CursorPos X="12" Y="9"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_09.pas"/>
@@ -99,7 +100,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos X="46" Y="46"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case01\PIP.Cases01_10.pas"/>
@@ -107,7 +108,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="49"/>
         <CursorPos X="49" Y="59"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="51"/>
       </Unit>
       <Unit>
         <Filename Value="目录.txt"/>
@@ -115,17 +116,17 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="75" Y="6"/>
-        <UsageCount Value="46"/>
+        <SyntaxHighlighter Value="FreePascal"/>
+        <UsageCount Value="47"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="44"/>
-        <CursorPos X="4" Y="71"/>
-        <UsageCount Value="46"/>
+        <CursorPos X="33" Y="102"/>
+        <UsageCount Value="47"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -191,147 +192,47 @@
         <UsageCount Value="8"/>
       </Unit>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
-      <Position1>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="74" TopLine="58"/>
-      </Position1>
-      <Position2>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="58"/>
-      </Position2>
-      <Position3>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="58"/>
-      </Position3>
-      <Position4>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="52" Column="30" TopLine="43"/>
-      </Position4>
-      <Position5>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="56"/>
-      </Position5>
-      <Position6>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="56"/>
-      </Position6>
-      <Position7>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="56"/>
-      </Position7>
-      <Position8>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="56"/>
-      </Position8>
-      <Position9>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="56"/>
-      </Position9>
-      <Position10>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="56"/>
-      </Position10>
-      <Position11>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="56"/>
-      </Position11>
-      <Position12>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="56"/>
-      </Position12>
-      <Position13>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="56"/>
-      </Position13>
-      <Position14>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="73" TopLine="57"/>
-      </Position14>
-      <Position15>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="74" TopLine="58"/>
-      </Position15>
-      <Position16>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="58"/>
-      </Position16>
-      <Position17>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="58"/>
-      </Position17>
-      <Position18>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="58"/>
-      </Position18>
-      <Position19>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="73" TopLine="58"/>
-      </Position19>
-      <Position20>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="74" TopLine="58"/>
-      </Position20>
-      <Position21>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="58"/>
-      </Position21>
-      <Position22>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="58"/>
-      </Position22>
-      <Position23>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="58"/>
-      </Position23>
-      <Position24>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="73" TopLine="58"/>
-      </Position24>
-      <Position25>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="74" TopLine="58"/>
-      </Position25>
-      <Position26>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="58"/>
-      </Position26>
-      <Position27>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="58"/>
-      </Position27>
-      <Position28>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="72" TopLine="58"/>
-      </Position28>
-      <Position29>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="65" TopLine="58"/>
-      </Position29>
-      <Position30>
-        <Filename Value="Source\Case02\PIP.Cases02_01.pas"/>
-        <Caret Line="71" TopLine="58"/>
-      </Position30>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="Source\PIP.Main.pas"/>
+        <Caret Line="34" Column="54" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="Source\PIP.Main.pas"/>
+        <Caret Line="13" Column="18" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Source\PIP.Main.pas"/>
+        <Caret Line="37" Column="7" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="Source\PIP.Main.pas"/>
+        <Caret Line="34" Column="54" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="Source\PIP.Main.pas"/>
+        <Caret Line="38" Column="14" TopLine="14"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode=""/>
+      <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
   <Debugging>
-    <Watches Count="4">
-      <Item1>
+    <Watches>
+      <Item>
         <Expression Value="money"/>
-      </Item1>
-      <Item2>
+      </Item>
+      <Item>
         <Expression Value="tn"/>
-      </Item2>
-      <Item3>
+      </Item>
+      <Item>
         <Expression Value="tmpM"/>
-      </Item3>
-      <Item4>
+      </Item>
+      <Item>
         <Expression Value="tax"/>
-      </Item4>
+      </Item>
     </Watches>
   </Debugging>
 </CONFIG>

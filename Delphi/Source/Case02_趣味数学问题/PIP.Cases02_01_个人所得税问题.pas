@@ -101,8 +101,8 @@ var
 begin
   money := 9000;
 
-  WriteLn(Format('%0.2m : %0.2m', [money, CalcTax(money)])); // error
-  WriteLn(Format('%0.2m : %0.2m', [money, __CalcTax(money)]));
+  WriteLn(Format('%0.2m : %0.2m', [money, CalcTax(money - TAX_BASE)])); // error
+  WriteLn(Format('%0.2m : %0.2m', [money, __CalcTax(money - TAX_BASE)]));
 end;
 
 end.

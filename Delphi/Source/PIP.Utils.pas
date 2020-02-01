@@ -6,6 +6,10 @@ uses
   System.SysUtils;
 
 type
+  UChar = Char;
+  UString = String;
+  TArr_int = TArray<integer>;
+
   TLAUtils = class
   public
     class procedure DrawLine;
