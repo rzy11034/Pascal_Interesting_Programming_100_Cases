@@ -28,7 +28,7 @@ begin
         begin
           if (c <> a) and (c <> b) then
           begin
-            Inc(i);
+            i += 1;
             WriteLn(Format('A:%d, B:%d, C:%d', [a, b, c]));
           end;
         end;

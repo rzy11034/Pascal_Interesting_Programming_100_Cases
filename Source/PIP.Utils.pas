@@ -9,10 +9,14 @@ uses
   SysUtils;
 
 type
+  //////////////////////////////
   UChar = UnicodeChar;
   UString = UnicodeString;
+
+  /////////////////////////////////
   TArr_int = array of integer;
 
+  //////////////////////////////////
   TLAUtils = class
   public
     class procedure DrawLine;

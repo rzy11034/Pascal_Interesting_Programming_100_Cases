@@ -1,20 +1,21 @@
-﻿unit PIP.Cases01_10_数值转换;
+﻿unit PIP.Cases01_10;
 
-{$ZEROBASEDSTRINGS ON}
+{$mode objfpc}{$H+}
 
 interface
 
 uses
-  System.SysUtils,
-  System.Math,
-  System.Generics.Collections;
+  Classes,
+  SysUtils,
+  gstack,
+  Math;
 
 procedure Main;
 
 implementation
 
 type
-  TStack = TStack<char>;
+  TStack = specialize TStack<char>;
 
 function CharToNum(c: char): integer;
 var
@@ -46,7 +47,7 @@ begin
   Result := ret;
 end;
 
-function AnyToDec(numStr: string; inType: integer): string;
+function AnyToDec(numStr: string; inType: integer): integer;
 var
   tmp, i: integer;
   stack: TStack;
@@ -59,30 +60,30 @@ begin
       stack.Push(numStr[i]);
 
     i := 0;
-    while stack.Count > 0 do
+    while not stack.IsEmpty do
     begin
-      tmp := tmp + CharToNum(stack.Peek) * Round(IntPower(inType, i));
+      tmp := tmp + CharToNum(stack.Top) * Round(IntPower(inType, i));
       stack.Pop;
 
-      i := i + 1;
+      i += 1;
     end;
 
-    Result := tmp.ToString;
+    Result := tmp;
   finally
     stack.Free;
   end;
 end;
 
-function DecToAny(numStr: string; OutType: integer): string;
+function DecToAny(numStr: integer; OutType: integer): string;
 var
   tmp: integer;
   stack: TStack;
-  sb: TStringBuilder;
+  sb: TAnsiStringBuilder;
 begin
   stack := TStack.Create;
-  sb := TStringBuilder.Create;
+  sb := TAnsiStringBuilder.Create;
   try
-    tmp := numStr.ToInteger;
+    tmp := numStr;
 
     while tmp > 0 do
     begin
@@ -90,9 +91,9 @@ begin
       tmp := tmp div OutType;
     end;
 
-    while stack.Count > 0 do
+    while not stack.IsEmpty do
     begin
-      sb.Append(stack.Peek);
+      sb.Append(stack.Top);
       stack.Pop;
     end;
 
@@ -103,9 +104,9 @@ begin
   end;
 end;
 
-function NumTrans(numStr: string; inType, OutType: integer): string;
+function NumTrans(numStr: string; inType, outType: integer): string;
 begin
-  Result := DecToAny(AnyToDec(numStr, inType), OutType);
+  Result := DecToAny(AnyToDec(numStr, inType), outType);
 end;
 
 procedure Main;
